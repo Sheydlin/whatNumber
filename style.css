@@ -245,4 +245,18 @@ select {
   .conteiner {
     width: 624px;
   }
+  .input-box input {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+  .hello-box__button {
+    margin-top: 20px;
+  }
+  .try-again-button,
+  .try-again-button-two {
+    margin-top: 15px;
+  }
 }
