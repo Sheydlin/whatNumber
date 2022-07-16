@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>What Number?</title>
+  </head>
+  <body>
+    <div class="body">
+      <div class="conteiner">
+        <div class="hello-box">
+          <div class="hello-box__text">
+            Получится у тебя отгадать число от 1 до 10?
+          </div>
+          <div class="hello-box__button">Попробовать</div>
+        </div>
+        <div class="random">
+          <div class="random__text">Число загадано!</div>
+          <div class="random__interactive">
+            <div class="input-box">
+              <input
+                class="input"
+                type="number"
+                placeholder="Введите число от 1 до 10"
+              />
+            </div>
+            <div class="interactive__button">Проверить</div>
+          </div>
+        </div>
+        <div class="success">
+          <div class="success__text">
+            Поздравляю. Ты угадал, я загадал <span id="secretNumber"></span>.
+          </div>
+          <div class="try-again-button">Попробовать еще раз.</div>
+        </div>
+        <div class="lose">
+          <div class="lose__text">
+            Ты ошибся. Я загадал <span id="secretNumber2"></span>.
+          </div>
+          <div class="try-again-button-two">Попробовать еще раз.</div>
+        </div>
+      </div>
+    </div>
+    <div class="for-test"><span class="test">?</span></div>
+    <script src="script.js"></script>
+  </body>
+</html>
